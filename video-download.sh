@@ -14,8 +14,6 @@ elif [ "$1" == "---audio-m4a" ]; then
   yt-dlp -x --audio-format m4a --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" $video_url
 
 elif [ "$1" == "-h" ]; then
-  echo "+---------------------------+"
-  echo "| instagram: @rafael_cyber1 |"
   echo "|---------------------------|"
   echo "|--video-download.sh V.1.0--|"
   echo "+---------------------------+"
